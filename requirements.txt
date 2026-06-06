@@ -1,0 +1,15 @@
+# Dependencies for the analysis notebook (DeluxePaint_Analysis.ipynb).
+#
+# verify_patterns.py needs ONLY the Python standard library — no install required.
+#
+# plotly is pinned to 5.x because the notebook's figures use the 5.x colorbar API
+# (the 6.x release removed some of those properties).
+pandas
+numpy
+networkx
+scipy
+matplotlib
+seaborn
+plotly==5.24.1
+scikit-learn
+statsmodels

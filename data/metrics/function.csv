@@ -1,0 +1,547 @@
+Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountLineInactive,CountLinePreprocessor,CountOutput,CountSemicolon,CountStmt,CountStmtDecl,CountStmtEmpty,CountStmtExe,Cyclomatic,MaxNesting,RatioCommentToCode
+Function,AbortIMode,5,12,0,12,2,7,1,0,0,7,7,9,1,0,8,3,2,0.08
+Function,AbortKeyHit,1,8,0,8,3,3,0,0,0,1,5,6,2,1,3,3,2,0
+Function,ActWPaint,2,10,0,10,1,8,0,0,0,4,8,12,0,0,12,5,1,0
+Function,afillproc,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Function,AllocBitMap,3,9,0,9,2,4,0,0,0,2,6,7,1,0,6,3,1,0
+Function,AllocShowNames,0,3,0,3,2,0,0,0,0,1,1,1,1,0,0,1,0,0
+Function,AllocTmpRas,4,8,0,8,3,5,1,0,0,5,6,7,2,0,5,2,1,0.13
+Function,BailOut,3,7,0,7,3,4,0,0,0,3,5,6,2,0,4,1,0,0
+Function,BasicBandW,3,1,0,1,1,1,0,0,0,2,2,3,1,0,2,1,0,0
+Function,beginrot,0,1,0,1,1,0,0,0,0,1,2,0,0,0,0,1,0,0
+Function,beginstr,1,4,0,4,1,3,0,0,0,2,2,2,0,0,2,1,0,0
+Function,BlankBitMap,4,3,0,3,1,0,0,0,0,1,2,0,0,0,0,1,0,0
+Function,BMAllocMask,2,3,0,3,0,0,0,0,0,1,2,0,0,0,0,1,0,0
+Function,BMBlitSize,1,3,0,3,1,1,0,0,0,1,2,1,0,0,1,1,0,0
+Function,BMOBFreeTmp,3,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,BMOBMask,10,7,0,7,1,4,0,0,0,3,6,5,0,0,5,2,1,0
+Function,BMOBRotSize,1,11,0,11,2,0,0,0,0,1,8,1,1,0,0,1,0,0
+Function,BMRot90,3,36,0,36,4,14,2,0,0,2,36,30,10,1,19,7,4,0.06
+Function,BoxAnd,4,10,0,10,0,1,0,0,0,1,11,1,0,0,1,2,1,0
+Function,BoxBeInside,4,9,0,9,1,2,0,0,0,1,8,2,0,0,2,3,0,0
+Function,BoxContains,1,3,0,3,0,0,0,0,0,1,3,0,0,0,0,1,0,0
+Function,BoxFrByteBox,2,3,0,3,2,1,0,0,0,2,3,2,1,0,1,1,0,0
+Function,BoxFromSM,3,1,0,1,1,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,BoxNot,2,8,0,8,1,7,0,0,0,1,22,15,0,0,15,1,0,0
+Function,BoxThreePts,8,6,0,6,1,2,0,0,0,1,13,41,0,12,29,7,1,0
+Function,BoxTwoPts,6,5,0,5,1,2,0,0,0,1,9,17,0,4,13,3,1,0
+Function,BrBgToFg,3,5,0,5,3,3,0,0,0,2,3,6,2,0,4,2,1,0
+Function,BrBox,3,4,0,4,1,2,0,0,0,2,4,4,0,0,4,4,1,0
+Function,BrDubl,3,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,BrDublX,2,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,BrDublY,2,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,BrFlipX,4,7,0,7,3,5,0,0,0,3,5,11,3,0,8,4,1,0
+Function,BrFlipY,4,7,0,7,1,5,0,0,0,3,5,9,1,0,8,4,1,0
+Function,BrHalf,3,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,BrRemapCols,3,11,0,10,4,3,1,0,0,2,7,7,3,0,4,2,1,0.1
+Function,BrRot90,3,23,1,22,11,13,1,0,0,10,18,25,10,0,15,4,1,0.05
+Function,BrushDefined,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,1,0,0
+Function,cDspPaint,2,16,0,16,6,7,0,0,0,6,15,13,5,0,8,2,1,0
+Function,ChangeBMOB,5,54,7,29,5,19,9,4,5,8,25,24,7,0,17,4,2,0.31
+Function,CheapMove,2,7,0,4,1,2,1,1,2,3,3,2,0,0,2,1,0,0.25
+Function,CheckAbort,1,5,0,5,2,3,1,0,0,4,3,6,2,0,4,2,1,0.2
+Function,CheckForKey,0,10,0,10,1,3,0,0,0,3,8,5,1,0,4,2,1,0
+Function,ChgABRadius,2,1,0,1,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,ChgPane,3,11,0,8,2,5,0,1,2,4,5,8,1,0,7,4,1,0
+Function,ChkChgPane,1,13,0,13,3,3,0,0,0,2,8,6,3,1,2,2,1,0
+Function,ChkFNRes,5,5,0,5,1,2,0,0,0,2,2,2,0,0,2,2,1,0
+Function,CircTypeOps,4,5,0,5,1,2,0,0,0,3,4,2,0,0,2,1,0,0
+Function,ClearBitMap,3,5,0,5,2,0,0,0,0,1,5,1,1,0,0,1,0,0
+Function,ClearBMOB,6,11,0,11,1,8,0,0,0,3,8,9,0,0,9,3,1,0
+Function,ClearBrXform,3,6,0,6,3,3,0,0,0,4,4,5,2,0,3,1,0,0
+Function,ClearErase,3,7,0,7,1,3,0,0,0,3,3,3,0,0,3,2,1,0
+Function,ClearFB,8,5,0,5,1,4,0,0,0,4,6,8,0,0,8,3,1,0
+Function,ClearXY,3,6,0,6,1,2,0,0,0,2,2,2,0,0,2,2,1,0
+Function,ClipChgBox,7,6,0,6,3,3,0,0,0,2,6,7,2,0,5,1,0,0
+Function,ClipDraw,3,8,0,5,1,3,0,1,2,4,5,3,0,0,3,1,0,0
+Function,ClipEnd,2,11,1,7,3,4,0,1,2,5,6,8,2,0,6,3,1,0
+Function,ClipInit,4,5,0,5,1,2,0,0,0,5,5,4,0,0,4,1,0,0
+Function,ClipMove,4,9,0,6,1,4,0,1,2,8,7,6,0,0,6,2,1,0
+Function,CloseDisplay,9,23,2,21,12,18,0,0,0,17,20,33,12,0,21,3,1,0
+Function,CloseWB,1,13,0,13,4,8,0,0,0,7,9,13,4,0,9,3,1,0
+Function,clrcrv,1,1,0,1,1,1,0,0,0,3,2,3,1,0,2,1,0,0
+Function,ClrEveryTime,1,5,0,5,1,1,0,0,0,2,3,1,0,0,1,1,0,0
+Function,clrXHAndOb,0,1,0,1,1,1,0,0,0,3,2,2,0,0,2,1,0,0
+Function,CmpStr,2,6,0,6,3,4,0,0,0,3,5,6,3,0,3,1,0,0
+Function,ColWPaint,2,29,0,29,2,9,0,0,0,7,28,10,1,0,9,2,1,0
+Function,complPoly,1,4,0,4,1,3,0,0,0,2,3,3,0,0,3,1,0,0
+Function,ComWidth,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,1,0,0
+Function,ConstBoxFromSM,3,10,0,10,1,4,0,0,0,2,7,4,0,0,4,2,1,0
+Function,CopyBitMap,5,6,0,6,3,3,0,0,0,4,6,7,2,0,5,2,1,0
+Function,CopyBMOBPict,5,13,0,13,3,10,1,0,0,4,12,15,3,0,12,3,1,0.08
+Function,CopyToSpare,1,7,0,7,2,3,0,0,0,2,5,5,1,0,4,2,1,0
+Function,CopyWNotice,2,14,0,14,7,10,0,0,0,6,12,17,7,0,10,1,0,0
+Function,CopyWText,3,5,0,5,1,3,0,0,0,2,3,3,0,0,3,1,0,0
+Function,CPClearBut,0,8,0,8,2,2,0,0,0,0,6,5,1,0,4,3,1,0
+Function,CPInit,1,32,4,27,3,2,1,0,0,3,21,6,3,0,3,2,1,0.04
+Function,CPShowAct,2,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,CursInst,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0
+Function,CycPaint,5,8,0,8,2,1,0,0,0,1,4,2,1,0,1,2,1,0
+Function,DecPen,2,2,0,2,1,2,0,0,0,2,2,3,0,0,3,2,1,0
+Function,DefaultCursor,1,1,0,1,1,0,0,0,0,1,1,1,1,0,0,1,0,0
+Function,DefaultPaintCursor,2,3,0,3,1,1,0,0,0,2,1,1,0,0,1,2,0,0
+Function,DefaultPalette,1,1,0,1,1,1,0,0,0,3,2,2,0,0,2,1,0,0
+Function,diagOctChange,1,11,0,11,1,2,0,0,0,3,9,2,0,0,2,1,0,0
+Function,DisableAbort,0,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,DispActMenu,4,20,0,20,6,7,0,0,0,5,17,13,5,0,8,2,1,0
+Function,DispAndSetMode,3,4,0,4,3,2,0,0,0,3,3,4,2,0,2,1,0,0
+Function,DispAvailMem,3,10,0,10,4,4,0,0,0,4,6,9,5,0,4,2,1,0
+Function,DispNum,4,8,0,8,5,5,1,0,0,5,8,12,5,0,7,2,1,0.13
+Function,DispPntMode,6,17,0,10,3,2,7,0,0,2,6,4,2,0,2,2,1,0.7
+Function,DispXY,1,11,0,11,2,1,0,0,0,1,7,2,1,0,1,2,1,0
+Function,DoBlend,3,24,0,24,8,9,1,0,0,1,21,17,8,1,8,6,2,0.04
+Function,DoBrs,2,30,0,30,3,27,0,0,0,14,42,70,2,0,68,22,2,0
+Function,dogrid,0,6,0,6,3,2,0,0,0,3,4,4,2,0,2,1,0,0
+Function,domag,0,1,0,1,1,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,DoMessage,2,79,3,58,7,33,12,4,6,12,48,48,7,0,41,10,3,0.21
+Function,DoMode,1,8,0,8,2,3,0,0,0,2,5,4,1,0,3,2,1,0
+Function,DoOpen,0,1,0,1,1,1,0,0,0,3,3,5,2,0,3,1,0,0
+Function,doRead,0,4,0,4,3,1,0,0,0,1,3,4,3,0,1,1,0,0
+Function,DoSave,0,1,0,1,1,1,0,0,0,3,3,3,0,0,3,1,0,0
+Function,DoSaveAs,0,1,0,1,1,1,0,0,0,3,3,3,0,0,3,1,0,0
+Function,DoSelBr,1,32,0,32,10,27,1,0,0,11,28,28,9,0,19,4,1,0.03
+Function,DoShade,7,18,0,18,8,15,0,0,0,2,20,25,8,2,15,8,1,0
+Function,DoSmear,6,8,0,8,3,6,1,0,0,6,9,10,2,0,8,3,1,0.13
+Function,doStretch,5,25,0,21,5,24,0,2,2,11,14,22,4,0,18,5,2,0
+Function,doSymCenter,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Function,DoSymReq,0,10,0,10,7,4,1,0,0,5,8,10,6,0,4,1,0,0.1
+Function,DotBFromRad,1,1,0,1,1,1,0,0,0,1,2,1,0,0,1,1,0,0
+Function,DoText,4,4,0,4,3,2,0,0,0,4,4,4,2,0,2,1,0,0
+Function,DotInfo,1,5,0,5,2,3,0,0,0,3,4,4,1,0,4,2,1,0
+Function,DotsPen,4,9,0,9,3,8,0,0,0,5,8,8,2,0,6,4,0,0
+Function,DPInit,15,138,33,93,25,62,12,9,2,35,83,100,24,6,70,15,3,0.13
+Function,Dubl,2,3,0,3,1,2,0,0,0,3,2,4,1,0,3,3,1,0
+Function,DupBitMap,5,4,0,4,2,1,0,0,0,2,3,2,1,0,1,1,0,0
+Function,EnableAbort,0,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,EncloseBox,5,12,0,12,1,4,1,0,0,2,9,4,0,0,4,4,1,0.08
+Function,EndCycPaint,2,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,endrot,2,17,0,17,9,12,2,0,0,8,13,21,9,0,12,2,1,0.12
+Function,endShrob,2,5,0,5,1,3,0,0,0,2,3,3,0,0,3,1,0,0
+Function,EraseBox,3,4,0,4,2,1,0,0,0,4,4,4,1,0,3,2,1,0
+Function,EraseTempChg,3,7,0,7,2,4,1,0,0,5,4,6,1,0,5,2,1,0.14
+Function,ExtractBMOB,7,30,2,22,5,13,9,0,0,5,21,22,5,0,17,3,1,0.41
+Function,FCircTypeOps,4,4,0,4,1,1,0,0,0,2,3,1,0,0,1,1,0,0
+Function,FillBitMap,0,4,0,4,1,0,0,0,0,1,6,0,0,0,0,1,0,0
+Function,FixMag,6,32,6,25,3,16,1,0,0,6,23,19,3,0,16,6,2,0.04
+Function,FixMagAndPaint,2,5,0,5,1,2,0,0,0,3,5,5,0,0,5,3,2,0
+Function,FixMenCols,1,16,0,16,2,7,3,0,0,4,12,8,1,0,7,2,1,0.19
+Function,FixOffs,3,5,0,5,3,3,0,0,0,3,3,5,2,0,3,1,0,0
+Function,FixTitle,4,13,0,13,2,5,0,0,0,3,7,5,1,0,4,2,1,0
+Function,FixUsePen,5,5,0,5,1,3,0,0,0,2,2,4,0,0,4,3,2,0
+Function,FlipIt,1,1,0,1,1,1,0,0,0,3,3,5,2,0,3,1,0,0
+Function,FlipY,1,7,0,7,2,0,0,0,0,1,7,1,1,0,0,1,0,0
+Function,FN_HandleEvent,1,17,0,17,2,4,0,0,0,1,10,7,1,2,4,4,2,0
+Function,FN_InitReq,0,51,4,47,2,39,0,0,0,5,44,28,1,0,27,1,0,0
+Function,FN_InitText,0,31,1,30,0,0,0,0,0,1,25,0,0,0,0,1,0,0
+Function,FreeAllRAM,4,11,0,11,1,0,0,0,0,2,9,7,1,0,6,4,1,0
+Function,FreeBitMap,14,7,0,7,2,0,0,0,0,1,6,1,1,0,0,1,0,0
+Function,FreeBMOB,5,6,0,6,1,4,1,0,0,3,5,4,0,0,4,1,0,0.17
+Function,FreeFileNames,0,8,0,8,2,2,0,0,0,2,6,5,1,0,4,3,2,0
+Function,FreeFonts,3,16,0,15,7,3,1,0,0,2,15,12,8,0,4,2,1,0.07
+Function,FreePoly,3,2,0,2,1,1,0,0,0,2,4,3,1,0,2,1,0,0
+Function,FreeShowNames,1,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,FreeSpare,1,4,0,4,1,2,0,0,0,3,2,3,0,0,3,2,1,0
+Function,FreeTmpRas,4,4,0,4,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,FreeUpMem,1,4,0,4,2,0,0,0,0,1,2,1,1,0,0,1,0,0
+Function,frobclr,0,1,0,1,1,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,frobmv,0,1,0,1,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,frobsh,1,1,0,1,1,1,0,0,0,2,2,3,2,0,1,1,0,0
+Function,GetBrs,1,8,0,8,3,5,1,0,0,5,7,8,3,0,5,2,1,0.13
+Function,getch,1,13,0,13,2,3,0,0,0,3,8,5,2,0,3,2,1,0
+Function,GetNextCh,2,4,0,4,0,2,0,0,0,1,3,3,0,0,3,2,1,0
+Function,GetPushBMsg,3,4,0,4,2,0,0,0,0,1,1,1,1,0,0,1,0,0
+Function,GetTimerMsg,2,3,0,3,2,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,GoDown,0,18,1,17,5,12,0,0,0,14,16,21,4,0,17,4,1,0
+Function,GoUp,0,15,0,15,6,10,2,0,0,11,16,21,5,0,16,1,0,0.13
+Function,GunTheBrush,3,5,0,5,4,3,1,0,0,4,3,6,3,0,3,1,0,0.2
+Function,GWriteFlush,0,7,0,7,3,5,1,0,0,3,4,6,2,0,4,2,1,0.14
+Function,Half,2,3,0,3,1,2,0,0,0,3,2,4,1,0,3,2,1,0
+Function,HelpMe,1,14,0,14,11,12,0,0,0,13,12,23,10,0,13,3,1,0
+Function,HideCursor,1,1,0,1,1,0,0,0,0,1,1,1,1,0,0,1,0,0
+Function,HookActive,1,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,hsv2rgb,5,50,2,37,5,45,18,0,0,5,29,44,10,0,34,9,2,0.49
+Function,HSVSetsCurrentColor,2,6,0,6,2,4,0,0,0,5,4,5,1,0,4,1,0,0
+Function,iabs,1,1,0,1,1,1,0,0,0,1,2,1,0,0,1,2,0,0
+Function,IffErr,1,7,0,7,0,0,0,0,0,1,4,0,0,0,0,1,0,0
+Function,IMAirBrush,1,3,0,3,2,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,IMCirc,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,IMCurve1,0,3,0,3,1,1,0,0,0,1,2,1,0,0,1,1,0,0
+Function,IMCurve2,0,3,0,3,1,1,0,0,0,1,2,1,0,0,1,1,0,0
+Function,IMDraw,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,IMFCirc,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,IMFill,0,1,0,1,1,1,0,0,0,3,2,2,0,0,2,1,0,0
+Function,IMFOval,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,IMFPoly2,1,6,0,6,1,4,0,0,0,4,4,4,0,0,4,1,0,0
+Function,IMFRect,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,IMGetFPat,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+Function,IMGridSpec,0,8,0,8,1,4,0,0,0,4,6,4,0,0,4,1,0,0
+Function,IMHBendBrush,1,7,0,7,3,4,0,0,0,4,6,8,2,0,6,2,1,0
+Function,IMMagSpec,2,6,0,6,2,3,0,0,0,4,4,4,1,0,3,1,0,0
+Function,IMNull,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0
+Function,IModeProcs,18,6,0,6,1,2,0,0,0,9,9,8,0,0,8,1,0,0
+Function,IMOval,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,IMPoly,1,4,0,4,1,2,0,0,0,2,2,2,0,0,2,1,0,0
+Function,IMPoly2,1,6,0,6,3,4,0,0,0,4,4,6,2,0,4,1,0,0
+Function,IMReadPix,0,1,0,1,1,1,0,0,0,3,2,3,1,0,2,1,0,0
+Function,IMRect,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,IMSelBrush,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,IMShade,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,IMShrBrush,2,9,0,9,4,8,0,0,0,9,11,17,4,0,13,3,1,0
+Function,IMSizePen,0,3,0,3,1,0,0,0,0,0,1,0,0,0,0,1,0,0
+Function,IMSymCent,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0
+Function,IMText1,1,8,0,8,1,6,0,0,0,6,5,5,0,0,5,1,0,0
+Function,IMText2,1,7,0,7,2,5,0,0,0,4,4,5,1,0,4,1,0,0
+Function,IMVBendBrush,1,7,0,7,1,4,0,0,0,4,6,6,0,0,6,2,1,0
+Function,IMVect,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,InCaseOfReentry,1,7,0,7,1,3,0,0,0,3,3,3,0,0,3,2,1,0
+Function,IncPen,2,1,0,1,1,1,0,0,0,2,1,2,1,0,1,2,0,0
+Function,indexFromRate,2,12,0,12,3,6,0,0,0,1,9,10,3,0,7,3,2,0
+Function,InitBoard,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0
+Function,InitMag,6,13,0,13,4,11,0,0,0,10,11,14,3,0,11,1,0,0
+Function,InitMenu,2,14,0,14,3,1,0,0,0,2,10,3,2,0,1,1,0,0
+Function,InitOVS,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0
+Function,InitPalette,1,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,InitPGraph,1,4,0,4,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,InitPicPath,0,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,InitRead,2,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0
+Function,InitScreenFont,4,4,0,4,3,2,0,0,0,4,2,4,2,0,2,1,0,0
+Function,InitWrite,3,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0
+Function,InstCP,5,7,0,7,2,5,0,0,0,3,5,6,1,0,5,1,0,0
+Function,invrotb,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0
+Function,InvTxtBox,0,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,JamCursor,6,4,0,4,2,1,0,0,0,1,3,1,1,0,0,1,0,0
+Function,kbhit,0,1,0,1,0,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,KillCCyc,4,4,0,4,1,2,0,0,0,3,2,4,0,0,4,3,1,0
+Function,killFPoly,2,14,0,14,4,7,0,0,0,5,12,11,3,0,8,2,1,0
+Function,killMag,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Function,killShear,0,4,0,4,3,2,0,0,0,2,2,4,2,0,2,1,0,0
+Function,KillTimer,2,5,0,5,3,2,0,0,0,2,4,5,3,0,2,2,1,0
+Function,LeaveW,0,5,0,5,2,2,0,0,0,3,4,3,1,0,2,1,0,0
+Function,LegalMode,2,5,0,5,0,0,0,0,0,1,3,0,0,0,0,1,0,0
+Function,lfsin,4,18,0,18,3,10,0,0,0,2,17,18,4,0,14,6,1,0
+Function,LoadBrsNamed,2,38,0,38,7,30,1,0,0,15,27,33,6,0,27,6,2,0.03
+Function,LoadFontDir,3,11,0,9,7,7,3,0,0,7,7,15,7,0,8,2,1,0.33
+Function,LoadIMode,2,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,LoadPicNamed,3,27,0,27,10,21,1,0,0,11,23,26,9,0,17,4,2,0.04
+Function,MagCnst,4,8,0,8,3,5,0,0,0,2,12,11,2,0,9,1,0,0
+Function,MagErr,2,1,0,1,1,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,magPaint,7,10,0,10,3,6,0,0,0,1,5,8,2,1,5,2,1,0
+Function,magRect,6,12,0,12,4,9,0,0,0,4,11,13,4,0,9,1,0,0
+Function,magRefresh,0,1,0,1,1,1,0,0,0,2,2,2,0,0,2,1,0,0
+Function,MagUpdate,10,31,3,27,6,8,9,0,0,3,18,16,6,0,10,3,1,0.33
+Function,main,2,13,0,10,7,8,3,1,2,9,10,15,6,0,9,2,1,0.3
+Function,mainCproc,2,122,17,85,27,77,49,7,5,42,137,236,27,1,208,74,2,0.58
+Function,mainRefresh,7,5,0,5,2,3,0,0,0,2,2,3,1,0,2,1,0,0
+Function,MakeButtonBeUp,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0
+Function,MakeEquivBM,3,6,0,6,3,3,0,0,0,3,4,5,2,0,3,2,1,0
+Function,MaxMiLength,0,12,0,12,3,0,0,0,0,1,11,3,3,0,0,1,0,0
+Function,mClearOB,2,7,0,7,2,1,0,0,0,2,5,2,1,0,1,1,0,0
+Function,mClearToBg,2,9,0,9,4,6,0,0,0,7,7,9,3,0,6,1,0,0
+Function,mDrawDot,3,1,0,1,1,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,MergeSpare,3,14,0,14,4,7,0,0,0,4,10,11,4,0,7,2,1,0
+Function,mFillPoly,2,21,0,21,10,4,0,0,0,3,23,15,10,0,5,2,1,0
+Function,mFrame,3,6,0,6,2,3,0,0,0,4,5,4,1,0,3,1,0,0
+Function,mOBFrame,1,8,0,8,2,0,0,0,0,1,7,1,1,0,0,1,0,0
+Function,ModeMINum,2,1,0,1,1,1,0,0,0,1,2,1,0,0,1,1,0,0
+Function,MouseBut,4,6,0,6,1,3,0,0,0,1,4,6,1,0,5,3,1,0
+Function,movXHAndOb,0,1,0,1,1,1,0,0,0,3,3,3,0,0,3,1,0,0
+Function,mRect,2,4,0,4,3,1,0,0,0,2,3,4,3,0,1,1,0,0
+Function,MrgSpareBack,1,1,0,1,1,1,0,0,0,2,2,2,0,0,2,1,0,0
+Function,MrgSpareFront,1,1,0,1,1,1,0,0,0,2,2,2,0,0,2,1,0,0
+Function,MrgSpareUpdt,1,7,0,7,2,2,0,0,0,2,4,3,1,0,2,1,0,0
+Function,MyCloseFont,2,11,0,11,4,6,0,0,0,3,5,10,4,0,6,4,3,0
+Function,nada,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+Function,NewButIMode,2,4,0,4,1,2,0,0,0,2,5,4,0,0,4,2,1,0
+Function,NewDrawWhich,8,4,0,4,1,2,0,0,0,2,2,2,0,0,2,2,1,0
+Function,NewIMode,17,24,0,24,4,19,2,0,0,21,19,23,3,0,20,5,2,0.08
+Function,NextIMode,5,6,0,6,2,4,0,0,0,5,5,6,1,0,5,2,1,0
+Function,NoOpen,3,1,0,1,1,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,NoSave,3,1,0,1,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,nxtpoint,3,1,0,1,1,1,0,0,0,2,4,3,0,0,3,1,0,0
+Function,obclr,2,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Function,ObFlipX,2,10,0,10,4,7,0,0,0,6,9,12,4,0,8,2,1,0
+Function,ObFlipY,2,10,0,10,1,7,0,0,0,6,9,9,1,0,8,2,1,0
+Function,obmv,5,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,obsplat,1,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,OffCycPaint,1,1,0,1,1,1,0,0,0,3,2,2,0,0,2,1,0,0
+Function,OffRefrAfterOv,4,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,OnCycPaint,1,1,0,1,1,1,0,0,0,3,2,2,0,0,2,1,0,0
+Function,OneBitPen,3,6,0,6,2,3,0,0,0,4,4,4,1,0,3,1,0,0
+Function,OnRefrAfterOv,4,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,OpenPic,1,13,0,13,7,7,1,0,0,6,8,13,6,0,7,3,2,0.08
+Function,OvflMsg,0,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,OvsEnd,0,8,0,8,2,4,0,0,0,2,2,5,1,0,4,3,2,0
+Function,OvsPrepare,0,2,0,2,2,1,0,0,0,2,2,4,1,0,3,2,1,0
+Function,PaintDivider,4,13,1,12,5,8,0,0,0,4,8,12,4,0,8,2,1,0
+Function,PaintIt,0,1,0,1,1,1,0,0,0,4,4,7,3,0,4,1,0,0
+Function,PaintOb,4,31,0,31,5,12,0,0,0,4,27,25,4,2,19,11,2,0
+Function,PaintSym,1,1,0,1,1,1,0,0,0,3,3,3,0,0,3,1,0,0
+Function,PaintWith,3,4,0,4,2,1,0,0,0,2,3,2,1,0,1,1,0,0
+Function,PaletteTool,25,177,38,120,5,173,32,0,0,47,107,103,10,1,92,23,1,0.27
+Function,PaneFakeMove,1,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,PaneInit,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0
+Function,PaneInstall,4,5,0,5,2,3,0,0,0,5,4,4,1,0,3,1,0,0
+Function,PanePaint,3,3,0,3,1,1,0,0,0,2,3,2,0,0,2,2,1,0
+Function,PaneRefrAll,8,3,0,3,1,1,1,0,0,2,1,2,0,0,2,2,1,0.33
+Function,PaneRefresh,3,5,0,5,3,0,0,0,0,1,6,4,4,0,0,1,0,0
+Function,PaneRemove,3,1,0,1,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,PaneReset,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0
+Function,PaneStop,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0
+Function,Panic,0,3,0,3,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,PatHLine,6,11,0,8,3,5,0,1,2,1,8,10,2,0,8,5,1,0
+Function,PauseCCyc,2,1,0,1,1,1,0,0,0,4,3,4,0,0,4,2,1,0
+Function,PBlendPix,0,11,0,11,1,2,0,0,0,1,6,2,0,0,2,2,1,0
+Function,PenWPaint,3,13,0,13,6,6,0,0,0,4,10,12,5,0,7,2,1,0
+Function,PFillBox,8,5,0,5,4,2,0,0,0,3,3,5,3,0,2,2,1,0
+Function,PFloodArea,2,5,1,3,2,1,1,0,0,2,1,2,1,0,1,1,0,0.33
+Function,PFloodBndry,3,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,PInvertBox,1,5,0,5,1,3,0,0,0,4,4,3,0,0,3,1,0,0
+Function,PInvertXHair,3,6,0,6,2,4,0,0,0,5,5,5,1,0,4,1,0,0
+Function,PListen,3,75,8,54,13,28,9,0,6,14,37,49,14,4,31,13,4,0.17
+Function,PlugChProc,4,1,0,1,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,pnDnMv,1,1,0,1,1,1,0,0,0,2,2,2,0,0,2,6,0,0
+Function,pnDraw,2,16,0,16,2,5,0,0,0,3,16,7,1,1,5,2,1,0
+Function,pnUpMv,0,1,0,1,1,1,0,0,0,2,3,3,0,0,3,1,0,0
+Function,PopGrDest,10,6,0,6,1,4,0,0,0,6,4,4,0,0,4,1,0,0
+Function,prbm,0,6,0,2,1,0,0,2,2,1,1,0,0,0,0,1,0,0
+Function,PReadPix,3,1,0,1,1,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,PrintPic,0,8,0,8,5,3,0,0,0,4,5,7,4,0,3,1,0,0
+Function,PShadePix,1,12,0,12,2,4,0,0,0,0,6,8,1,0,7,6,3,0
+Function,PSmearPix,2,6,0,6,1,2,0,0,0,2,4,3,0,0,3,2,1,0
+Function,PThinFrame,4,6,0,6,2,4,0,0,0,3,5,5,1,0,4,1,0,0
+Function,PushGrDest,11,8,0,8,1,6,0,0,0,6,8,6,0,0,6,1,0,0
+Function,PWritePix,4,6,0,4,3,2,0,0,2,2,2,4,2,0,2,2,1,0
+Function,RadSM,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,1,0,0
+Function,Rand16,2,5,0,5,0,1,0,0,0,3,4,2,0,0,2,1,0,0
+Function,Random,0,1,0,1,0,0,0,0,0,1,2,0,0,0,0,1,0,0
+Function,rateFromIndex,2,6,0,6,2,3,0,0,0,1,5,4,1,0,3,1,0,0
+Function,RecChange,3,4,0,4,2,2,0,0,0,2,3,3,1,0,2,2,0,0
+Function,RecPnt,5,6,0,6,1,4,0,0,0,1,5,5,0,0,5,2,1,0
+Function,RecTempChg,3,1,0,1,1,1,0,0,0,1,2,1,0,0,1,1,0,0
+Function,RedoNames,0,4,0,4,2,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,RelocBoxBM,4,5,0,5,3,3,0,0,0,3,4,5,2,0,3,1,0,0
+Function,RemoveMag,6,12,0,12,4,10,0,0,0,9,10,14,3,0,11,2,1,0
+Function,RepaintEverything,3,9,0,8,2,6,1,0,0,7,6,7,1,0,6,1,0,0.13
+Function,ResetCursor,3,5,0,5,1,3,0,0,0,3,2,3,0,0,3,2,1,0
+Function,ResizeWins,4,16,2,9,3,3,0,3,2,2,7,5,2,0,3,2,0,0
+Function,RestoreBrush,13,14,0,14,3,10,0,0,0,5,12,13,2,0,11,2,1,0
+Function,RestoreMode,10,5,0,5,2,3,0,0,0,4,3,4,1,0,3,1,0,0
+Function,RestorePalette,1,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,ResumeCCyc,2,1,0,1,1,1,0,0,0,3,2,3,0,0,3,2,1,0
+Function,RevertIMode,4,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,rgb2hsv,7,46,2,44,3,40,9,0,0,7,27,41,10,1,30,15,4,0.2
+Function,RGBSetsCurrentColor,1,3,0,3,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,RmvCP,5,7,0,7,2,5,0,0,0,3,5,6,1,0,5,1,0,0
+Function,rotob,0,1,0,1,1,0,0,0,0,1,2,1,1,0,0,1,0,0
+Function,SaveBrsAs,1,13,0,13,2,7,1,0,0,5,8,8,1,0,7,3,2,0.08
+Function,SaveBrsNamed,2,24,0,24,4,12,0,0,0,8,25,19,3,0,16,3,1,0
+Function,SaveBrush,6,9,0,9,1,4,0,0,0,4,7,6,1,0,5,2,1,0
+Function,SaveCurPic,2,20,0,20,7,7,0,0,0,2,12,15,6,0,9,6,4,0
+Function,SavePic,1,10,0,10,2,7,1,0,0,8,6,9,1,0,8,3,2,0.1
+Function,SavePicAs,2,8,0,8,3,5,1,0,0,6,6,8,2,0,6,2,1,0.13
+Function,SavePicNamed,3,28,0,28,3,14,0,0,0,9,26,19,3,0,16,3,1,0
+Function,SaveSizeBM,1,3,0,3,2,0,0,0,0,1,3,1,1,0,0,1,0,0
+Function,ScreenDest,6,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,scrollKeys,4,23,0,12,5,4,0,7,4,2,8,9,4,0,5,4,3,0
+Function,SelPen,4,29,0,29,9,21,2,0,0,8,23,38,9,0,29,11,3,0.07
+Function,SetAirBRad,3,3,0,3,1,1,0,0,0,3,5,3,0,0,3,2,0,0
+Function,SetBGCol,2,1,0,1,1,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,SetClipBox,5,5,0,5,1,2,0,0,0,3,4,2,0,0,2,1,0,0
+Function,SetColReg,5,3,0,3,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,SetCurrentColor,7,8,0,8,1,6,2,0,0,7,7,7,0,0,7,2,1,0.25
+Function,SetCursor,4,5,0,5,1,3,0,0,0,4,4,6,0,0,6,3,1,0
+Function,SetCurWin,1,1,0,1,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,SetCycPaint,5,6,0,6,2,4,0,0,0,4,6,6,1,0,5,2,1,0
+Function,SetEveryTime,1,5,0,5,1,1,0,0,0,2,3,1,0,0,1,1,0,0
+Function,SetFGCol,3,1,0,1,1,1,0,0,0,2,2,2,1,0,1,1,0,0
+Function,setGrOrg,1,4,0,4,1,2,0,0,0,2,2,1,0,0,1,1,0,0
+Function,SetMagContext,4,7,0,7,1,5,0,0,0,4,6,6,0,0,6,2,1,0
+Function,SetModeMenu,5,13,0,13,5,7,0,0,0,6,12,15,5,0,10,4,2,0
+Function,SetNextIMode,3,1,0,1,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,SetPaintCursor,4,5,0,5,1,3,0,0,0,2,4,4,0,0,4,3,1,0
+Function,SetPeriodicCall,2,1,0,1,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,SetXorFgPen,1,9,0,9,1,0,0,0,0,1,8,0,0,0,0,1,0,0
+Function,SharingBitMap,1,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,ShowFB,4,5,0,5,2,4,0,0,0,4,6,9,1,0,8,3,1,0
+Function,showgrid,0,2,0,2,1,1,1,0,0,3,3,3,1,0,2,1,0,0.5
+Function,ShowPallet,4,23,0,23,13,17,1,0,0,15,25,37,12,4,21,6,2,0.04
+Function,showXHAndOb,0,1,0,1,1,1,0,0,0,3,2,2,0,0,2,1,0,0
+Function,SimpleOps,2,1,0,1,1,1,0,0,0,2,2,1,0,0,1,1,0,0
+Function,SizeAirBrush,1,8,0,8,1,3,0,0,0,4,6,3,0,0,3,1,0,0
+Function,SizeAirOrPen,1,8,0,8,3,6,0,0,0,7,6,8,2,0,6,1,0,0
+Function,SolidPattern,1,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,SpecSymCenter,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Function,SplatOp,0,3,0,3,1,0,0,0,0,1,1,0,0,0,0,1,0,0
+Function,sqOctChange,1,11,0,11,1,2,0,0,0,3,9,2,0,0,2,1,0,0
+Function,StrBrTo,10,12,0,11,5,9,1,0,0,7,10,18,5,0,13,5,1,0.09
+Function,strgrid,0,6,0,6,1,3,0,0,0,3,4,2,0,0,2,1,0,0
+Function,Stroke3,3,4,0,4,1,3,0,0,0,2,3,2,0,0,2,1,0,0
+Function,strToLower,2,4,0,4,2,1,0,0,0,3,5,4,1,0,3,2,1,0
+Function,StuffReqNames,3,30,0,25,3,23,0,3,2,8,23,31,5,0,26,8,2,0
+Function,SwapHidScr,2,9,0,9,4,5,0,0,0,5,5,8,3,0,5,2,1,0
+Function,SwapSpare,2,15,0,15,5,7,0,0,0,5,13,12,4,0,8,3,1,0
+Function,SymCenter,2,1,0,1,1,1,0,0,0,2,4,1,0,0,1,1,0,0
+Function,SymDo,4,33,0,33,4,3,3,0,0,1,32,6,4,0,2,1,0,0.09
+Function,SymPts,2,5,0,5,2,3,0,0,0,4,4,6,1,0,5,2,1,0
+Function,symsplat,1,1,0,1,1,1,0,0,0,2,1,3,1,0,2,2,1,0
+Function,szSet,0,10,0,10,4,5,0,0,0,4,6,8,3,1,4,2,1,0
+Function,TempErase,3,6,0,6,2,2,0,0,0,3,4,3,1,0,2,1,0,0
+Function,TempXOR,8,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Function,TimerSigBit,1,3,0,3,1,1,0,0,0,1,2,1,0,0,1,1,0,0
+Function,TmpAllocBitMap,1,19,0,15,3,1,0,2,2,1,10,4,3,0,1,1,0,0
+Function,TogBoth,2,17,0,17,3,13,0,0,0,10,11,14,2,0,12,2,1,0
+Function,TogColCyc,2,4,0,4,1,2,0,0,0,4,3,5,0,0,5,3,1,0
+Function,TogCursor,1,1,0,1,1,1,0,0,0,3,2,2,0,0,2,1,0,0
+Function,ToggleMag,1,1,0,1,1,1,0,0,0,2,2,4,1,1,2,2,1,0
+Function,TogGridFixed,1,10,0,10,3,2,0,0,0,1,7,4,2,0,2,2,1,0
+Function,TogGridSt,2,1,0,1,1,1,0,0,0,3,2,3,1,0,2,1,0,0
+Function,ToglMagw,0,4,0,4,2,2,0,0,0,4,3,5,1,0,4,2,1,0
+Function,TogSymSt,2,1,0,1,1,1,0,0,0,3,2,3,1,0,2,1,0,0
+Function,TogTitle,2,6,0,6,1,4,0,0,0,5,4,4,0,0,4,1,0,0
+Function,TrackDown,2,9,0,9,1,6,0,0,0,7,9,12,0,0,12,4,2,0
+Function,TrackUp,2,9,0,9,1,6,0,0,0,7,9,12,0,0,12,4,2,0
+Function,TryOpenLib,2,5,0,5,2,1,0,0,0,2,5,4,1,0,3,2,1,0
+Function,TurnSymOn,0,1,0,1,1,1,0,0,0,2,1,2,0,0,2,2,1,0
+Function,UnDisplay,1,1,0,1,1,1,0,0,0,3,2,2,0,0,2,1,0,0
+Function,Undo,1,7,0,7,3,4,0,0,0,5,9,16,2,0,14,5,1,0
+Function,UndoHPoly,2,1,0,1,1,1,0,0,0,2,2,2,0,0,2,1,0,0
+Function,UndoOff,0,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,UndoOn,0,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,UndoSave,21,13,0,13,6,9,0,0,0,10,11,19,5,0,14,4,1,0
+Function,UnFixMenCols,1,10,0,10,2,4,0,0,0,4,6,5,1,0,4,2,1,0
+Function,UnZZZCursor,13,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,UpdtCach,8,8,0,8,4,5,0,0,0,6,6,9,3,0,6,2,1,0
+Function,UpdtDisplay,6,1,0,1,1,1,0,0,0,4,3,3,0,0,3,1,0,0
+Function,UpdtOFF,12,1,0,1,1,1,0,0,0,3,2,2,0,0,2,1,0,0
+Function,UpdtON,7,1,0,1,1,1,0,0,0,3,2,2,0,0,2,1,0,0
+Function,UpdtSibs,4,12,0,12,2,8,0,0,0,3,9,10,1,0,9,3,1,0
+Function,UseBrPalette,1,5,0,5,3,3,0,0,0,3,2,5,2,0,3,2,1,0
+Function,UseBrush,2,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,UsePen,2,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,UserBr,3,5,0,5,2,4,0,0,0,5,4,5,1,0,4,1,0,0
+Function,UserPaintMode,3,8,0,8,5,5,0,0,0,6,9,13,4,0,9,3,1,0
+Function,vec,1,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Function,VTypeOps,2,5,0,5,1,2,0,0,0,3,4,2,0,0,2,1,0,0
+Function,WaitRefrMessage,2,17,0,17,2,9,0,0,0,5,11,13,2,3,8,4,3,0
+Function,whoa,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0
+Function,XHTypeOps,3,5,0,5,2,2,0,0,0,3,5,3,1,0,2,2,0,0
+Function,xmagbox,0,6,0,6,5,2,0,0,0,3,4,7,5,0,2,1,0,0
+Function,XorCol,3,14,0,14,4,9,0,0,0,6,12,13,3,0,10,2,1,0
+Function,XorMode,5,4,0,4,2,2,0,0,0,3,3,3,1,0,2,1,0,0
+Function,xorPenBox,4,12,0,12,3,9,0,0,0,1,11,10,2,0,8,3,1,0
+Function,XorScreenBox,3,8,0,8,6,5,0,0,0,6,7,10,5,0,5,1,0,0
+Function,ZapBrushName,1,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,ZapPicName,2,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Function,ZZZCursor,13,1,0,1,1,1,0,0,0,2,1,1,0,0,1,1,0,0
+Static Function,_SetCC,8,30,3,23,4,16,5,0,0,9,16,26,4,0,22,6,2,0.22
+Static Function,_Undo,6,15,1,11,2,7,5,0,0,5,10,11,2,0,9,2,1,0.45
+Static Function,abDoDot,1,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,airbsplat,0,5,0,5,3,1,0,0,0,2,3,3,2,0,1,1,0,0
+Static Function,AllocErr,2,5,0,2,1,0,0,1,2,1,1,0,0,0,0,1,0,0
+Static Function,AllocSpare,2,13,0,13,4,7,0,0,0,6,11,13,4,0,9,4,2,0
+Static Function,beginHbend,2,7,0,7,1,2,0,0,0,2,8,2,0,0,2,1,0,0
+Static Function,beginshr,1,5,0,4,1,4,1,0,0,2,2,2,0,0,2,1,0,0.25
+Static Function,beginVbend,2,7,0,7,1,1,0,0,0,1,8,1,0,0,1,1,0,0
+Static Function,BMBendH,5,20,0,19,4,7,2,0,0,5,14,12,4,0,8,3,1,0.11
+Static Function,BMBendV,5,20,0,20,1,8,0,0,0,6,15,10,1,0,9,3,1,0
+Static Function,BoxFromPts,6,3,0,3,2,1,0,0,0,2,2,2,1,0,1,1,0,0
+Static Function,BoxText,4,3,0,3,1,2,1,0,0,1,2,1,0,0,1,1,0,0.33
+Static Function,chvec,1,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,chvec,1,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,cir,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,CLength,3,1,0,1,1,1,0,0,0,2,2,2,1,0,1,1,0,0
+Static Function,ClipRL,13,39,0,36,4,24,6,1,2,11,26,35,6,0,29,10,3,0.17
+Static Function,ClipUD,13,32,0,29,4,21,4,1,2,10,21,29,4,0,25,10,3,0.14
+Static Function,Close,12,10,0,7,1,5,0,1,2,8,5,8,0,0,8,4,1,0
+Static Function,crv,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,CycleColors,2,20,0,20,2,9,0,0,0,2,17,17,3,0,14,7,4,0
+Static Function,Dash,6,4,0,4,3,2,1,0,0,2,3,4,2,0,2,1,0,0.25
+Static Function,div,4,5,0,5,1,3,0,0,0,2,4,4,0,0,4,2,1,0
+Static Function,doColCon,1,9,0,9,4,6,0,0,0,5,11,19,3,0,16,6,1,0
+Static Function,DoFontMI,1,4,0,4,3,2,0,0,0,2,3,5,2,0,3,2,1,0
+Static Function,DoPic,2,1,0,1,1,1,0,0,0,1,2,1,0,0,1,1,0,0
+Static Function,doSpare,1,8,0,8,4,5,0,0,0,4,9,16,3,0,13,5,1,0
+Static Function,DoTextChar,2,27,0,27,7,22,0,0,0,11,37,49,6,5,38,11,2,0
+Static Function,dotmv,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,doval,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,DrawBox,8,10,1,9,3,7,1,0,0,2,8,7,2,0,5,1,0,0.11
+Static Function,DrawBoxAround,6,3,0,3,1,1,1,0,0,1,2,1,0,0,1,1,0,0.33
+Static Function,DrawColorsBorder,5,5,0,5,1,3,0,0,0,4,4,3,0,0,3,1,0,0
+Static Function,drawGrid,2,17,0,17,2,8,1,0,0,4,16,14,5,0,9,2,1,0.06
+Static Function,DrawInRange,4,1,0,1,1,1,0,0,0,2,3,2,0,0,2,1,0,0
+Static Function,DrawRange,5,14,2,12,2,7,1,0,0,4,9,20,1,4,15,5,1,0.08
+Static Function,DrawWhich,6,65,10,50,3,61,10,0,0,6,37,50,5,0,45,13,2,0.2
+Static Function,drPoly,2,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Static Function,dummy,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+Static Function,endbend,2,18,0,18,6,13,3,0,0,7,12,20,5,0,15,4,2,0.17
+Static Function,EventHandler,11,91,10,76,6,68,17,0,0,24,50,72,8,1,63,19,3,0.22
+Static Function,fcir,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,filbox,0,1,0,1,1,1,0,0,0,2,3,4,2,0,2,1,0,0
+Static Function,FixUpPen,4,12,0,12,2,9,0,0,0,4,10,10,1,0,9,1,0,0
+Static Function,ForceDrawWhich,3,16,1,14,2,8,1,0,0,1,10,19,2,5,12,7,1,0.07
+Static Function,foval,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,fpolyBup,3,18,0,18,4,13,2,0,0,9,11,15,3,0,12,3,2,0.11
+Static Function,frbox,0,3,0,3,2,1,0,0,0,2,3,4,2,0,2,1,0,0
+Static Function,GetTextSizeParams,1,4,0,4,1,0,0,0,0,1,3,0,0,0,0,1,0,0
+Static Function,GiveUp,1,1,0,1,1,1,0,0,0,4,3,5,2,0,3,1,0,0
+Static Function,incline,0,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,InitFontMenu,0,23,0,23,4,4,0,0,0,2,20,13,6,2,5,2,1,0
+Static Function,InitFonts,2,54,9,30,14,11,2,5,8,6,26,27,16,1,10,3,1,0.07
+Static Function,InitSliderGadgets,2,42,7,34,2,6,1,0,0,1,30,9,2,0,7,5,2,0.03
+Static Function,initStack,1,1,0,1,1,1,0,0,0,2,3,1,0,0,1,1,0,0
+Static Function,InvBlink,3,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0
+Static Function,InvGadg,3,15,0,15,6,2,0,0,0,1,11,7,6,0,1,1,0,0
+Static Function,invHbend,6,12,0,12,3,7,0,0,0,5,13,10,2,2,6,3,1,0
+Static Function,InvOne,0,2,0,2,1,2,0,0,0,2,2,3,0,0,3,2,1,0
+Static Function,InvSaveBox,3,8,0,5,4,3,0,1,2,4,4,6,3,0,3,1,0,0
+Static Function,invVbend,6,12,0,12,1,7,0,0,0,5,13,8,0,2,6,3,1,0
+Static Function,invXH,1,1,0,1,1,1,0,0,0,1,1,2,1,0,1,1,0,0
+Static Function,killText,1,5,0,5,3,1,0,0,0,1,3,3,2,0,1,1,0,0
+Static Function,LookColor,6,4,0,4,1,3,0,0,0,2,3,2,0,0,2,1,0,0
+Static Function,MakeMrgMask,4,5,0,5,2,3,0,0,0,2,2,4,1,1,2,2,1,0
+Static Function,markFStart,0,5,0,5,1,3,0,0,0,3,4,4,0,0,4,1,0,0
+Static Function,markStart,0,1,0,1,1,1,0,0,0,1,2,2,0,0,2,1,0,0
+Static Function,ModifyRGBHSVSliders,2,12,0,10,1,0,2,0,0,0,7,0,0,0,0,1,0,0.2
+Static Function,mul,5,4,0,4,1,2,0,0,0,2,3,2,0,0,2,1,0,0
+Static Function,MyVBlank,0,5,0,5,1,3,0,0,0,3,3,3,0,0,3,1,0,0
+Static Function,NewMode,5,20,3,17,4,13,1,0,0,4,11,14,5,0,9,4,1,0.06
+Static Function,NoEvent,1,1,0,1,1,1,0,0,0,3,3,3,0,0,3,1,0,0
+Static Function,noop,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+Static Function,NotEnough,1,4,0,4,3,2,0,0,0,2,2,4,2,0,2,1,0,0
+Static Function,Output,6,25,0,22,4,12,1,1,2,10,13,14,3,0,11,3,2,0.05
+Static Function,PaneDelete,4,10,0,10,4,3,0,0,0,4,10,10,3,1,6,5,2,0
+Static Function,PanePaintList,4,4,0,4,1,2,0,0,0,2,3,3,0,0,3,2,1,0
+Static Function,polyBup,1,10,0,10,2,7,0,0,0,4,7,7,1,0,6,2,1,0
+Static Function,PrepBend,2,8,0,8,2,6,0,0,0,6,9,14,2,0,12,4,1,0
+Static Function,Readable,3,3,0,3,1,2,0,0,0,1,2,1,0,0,1,2,0,0
+Static Function,ResetRange,7,20,3,14,3,18,7,0,0,6,12,15,2,0,13,4,1,0.5
+Static Function,sbfrbox,0,1,0,1,1,1,0,0,0,2,3,4,2,0,2,1,0,0
+Static Function,SetXorFgPen,1,9,0,9,1,0,0,0,0,0,8,0,0,0,0,1,0,0
+Static Function,ShowBMOB,5,14,0,14,1,9,0,0,0,3,8,9,0,0,9,3,1,0
+Static Function,shrob,3,16,0,16,4,13,0,0,0,6,9,14,4,0,10,5,2,0
+Static Function,SizePenBM,3,8,0,8,3,5,0,0,0,4,4,8,2,0,6,3,2,0
+Static Function,StartCCyc,2,6,0,6,3,4,0,0,0,3,5,8,2,0,6,2,1,0
+Static Function,StartText,0,5,0,5,1,2,0,0,0,2,3,2,0,0,2,1,0,0
+Static Function,StartVBlank,2,10,0,10,2,4,0,0,0,3,8,5,1,0,4,1,0,0
+Static Function,stopBlink,1,1,0,1,1,1,0,0,0,1,2,1,0,0,1,1,0,0
+Static Function,StopCCyc,3,6,0,6,3,4,0,0,0,3,4,7,2,0,5,2,1,0
+Static Function,StopVBlank,1,1,0,1,1,1,0,0,0,2,1,2,1,0,1,1,0,0
+Static Function,SymHandleEvent,0,23,1,16,2,7,0,2,4,3,12,12,1,1,10,6,2,0
+Static Function,SymInitReq,0,13,0,13,3,11,0,0,0,5,11,13,2,0,11,1,0,0
+Static Function,SzPen,2,2,0,2,1,2,0,0,0,2,1,2,1,0,1,1,0,0
+Static Function,TBlink,0,3,0,3,1,2,0,0,0,4,3,4,0,0,4,2,1,0
+Static Function,TBlinkClear,2,1,0,1,1,1,0,0,0,4,3,4,0,0,4,2,1,0
+Static Function,TBlinkShow,1,1,0,1,1,1,0,0,0,3,2,3,0,0,3,2,1,0
+Static Function,thinChVec,0,4,0,4,1,1,0,0,0,1,4,1,0,0,1,1,0,0
+Static Function,thinChVec,0,4,0,4,1,1,0,0,0,2,4,2,0,0,2,1,0,0
+Static Function,thinvec,0,4,0,4,1,1,0,0,0,1,4,1,0,0,1,1,0,0
+Static Function,TogCoords,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Static Function,TogFFB,0,1,0,1,1,1,0,0,0,1,2,2,1,0,1,1,0,0
+Static Function,TogMidHandle,0,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,0,0
+Static Function,triplet,4,3,0,3,1,1,0,0,0,3,4,3,0,0,3,1,0,0
+Static Function,unnormh,1,7,0,7,0,4,2,0,0,1,5,5,0,0,5,3,1,0.29
+Static Function,unnormrgb,1,4,0,4,0,1,0,0,0,2,3,1,0,0,1,1,0,0
+Static Function,unnormsv,2,5,0,5,0,2,0,0,0,2,4,3,0,0,3,2,1,0
+Static Function,VLine,7,4,0,4,1,2,1,0,0,2,3,2,0,0,2,1,0,0.25
+Static Function,waiting_for_gadget_up,2,10,2,8,1,3,1,0,0,5,5,3,0,0,3,1,0,0.13
+Static Function,WInvertGadget,4,17,1,14,4,10,2,0,0,3,10,13,5,0,8,2,1,0.14

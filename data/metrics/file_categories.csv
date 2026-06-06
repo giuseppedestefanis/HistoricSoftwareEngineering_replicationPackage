@@ -1,0 +1,78 @@
+Name,Category
+CHPROC.C,UI / Interaction
+CTRPAN.C,UI / Interaction
+CURSOR.C,UI / Interaction
+DISPNUM.C,UI / Interaction
+DOSYMREQ.C,UI / Interaction
+FNREQ.C,UI / Interaction
+KEYJUNK.C,UI / Interaction
+MENU.C,UI / Interaction
+MODES.C,UI / Interaction
+MOUSEBUT.C,UI / Interaction
+PAINTW.C,UI / Interaction
+PANE.C,UI / Interaction
+PENMENU.C,UI / Interaction
+REQCOM.C,UI / Interaction
+SYMREQ.C,UI / Interaction
+TEXT.C,UI / Interaction
+AIRBRUSH.C,System / Init
+DALLOC.C,System / Init
+DISTANCE.C,System / Init
+DPINIT.C,System / Init
+DPINIT2.C,System / Init
+FONTINIT.C,System / Init
+HOOK.C,System / Init
+INITOVS.C,System / Init
+INITREAD.C,System / Init
+INITWRIT.C,System / Init
+MESSAGE.C,System / Init
+PRISM.C,System / Init
+RANDOM.C,System / Init
+SPARE.C,System / Init
+TIMER.C,System / Init
+ACTBMS.C,Bitmap / Blitter
+BITMAPS.C,Bitmap / Blitter
+BLITOPS.C,Bitmap / Blitter
+BMOB.C,Bitmap / Blitter
+CURBRUSH.C,Bitmap / Blitter
+CURSBMS.C,Bitmap / Blitter
+DOTBMS.C,Bitmap / Blitter
+FNBMS.C,Bitmap / Blitter
+MAGBITS.C,Bitmap / Blitter
+MAGOPS.C,Bitmap / Blitter
+MAGWIN.C,Bitmap / Blitter
+MAINMAG.C,Bitmap / Blitter
+MASKBLIT.C,Bitmap / Blitter
+DPIFF.C,File I/O
+DPIO.C,File I/O
+IFFR.C,File I/O
+IFFW.C,File I/O
+ILBMR.C,File I/O
+ILBMW.C,File I/O
+MAKEICON.C,File I/O
+PACKERF.C,File I/O
+PRINT.C,File I/O
+UNPACKER.C,File I/O
+BLEND.C,Palette / Colour
+CCYCLE.C,Palette / Colour
+DOPALETT.C,Palette / Colour
+HSV.C,Palette / Colour
+PALBMS.C,Palette / Colour
+PALETTE.C,Palette / Colour
+REMAP.C,Palette / Colour
+SHADE.C,Palette / Colour
+BOX.C,Drawing / Graphics
+CONIC.C,Drawing / Graphics
+FILL.C,Drawing / Graphics
+GEOM.C,Drawing / Graphics
+PGRAPH.C,Drawing / Graphics
+POLYF.C,Drawing / Graphics
+POLYH.C,Drawing / Graphics
+PSYM.C,Drawing / Graphics
+BEND.C,Transforms
+BRXFORM.C,Transforms
+CLIP.C,Transforms
+ROT90.C,Transforms
+ROTATE.C,Transforms
+SHEAR.C,Transforms
+STRETCH.C,Transforms
